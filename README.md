@@ -2,12 +2,13 @@
 
 AI-powered Revit automation showcase using C#, Revit API, WPF and a local LLM.
 
-## Demo
+---
+
+## 🎥 Demo
 
 ### Before vs After — Revit Sheet Automation
 
-This demonstration compares the traditional manual workflow with
-PaulAI-assisted automation for:
+This demonstration compares the traditional manual workflow with PaulAI-assisted automation for:
 
 - Creating 15 Revit sheets
 - Placing named views on those sheets
@@ -16,12 +17,11 @@ PaulAI-assisted automation for:
 **Manual workflow:** ~8 minutes  
 **PaulAI workflow:** ~5 minutes
 
-[![Watch the PaulAI Demo](assets/after-workflow.png)](YOUR_YOUTUBE_LINK)
+[▶ Watch the full PaulAI Revit Automation Demo](https://drive.google.com/drive/folders/1mR3kIviU9xr0Zc1klANyeeQbIBxtS4NC?usp=drive_link)
 
-> The current prototype uses a locally hosted language model, so part of
-> the execution time comes from local inference latency. The underlying
-> Revit API automation is deterministic and can be paired with a faster
-> inference backend in a production environment.
+[![Watch the PaulAI Demo](assets/after-workflow.png)](https://drive.google.com/drive/folders/1mR3kIviU9xr0Zc1klANyeeQbIBxtS4NC?usp=drive_link)
+
+> The current prototype uses a locally hosted language model, so part of the execution time comes from local inference latency. The underlying Revit API automation is deterministic and can be paired with a faster inference backend in a production environment.
 
 ---
 
@@ -29,8 +29,7 @@ PaulAI-assisted automation for:
 
 ![Manual workflow](assets/before-workflow.png)
 
-The manual process requires repeatedly creating sheets, naming them,
-placing views, and exporting the resulting documentation.
+The manual process requires repeatedly creating sheets, naming them, placing views, and exporting the resulting documentation.
 
 ---
 
@@ -38,8 +37,7 @@ placing views, and exporting the resulting documentation.
 
 ![PaulAI automated workflow](assets/after-workflow.png)
 
-PaulAI interprets a natural-language request, converts it into a validated
-structured command, and performs the corresponding Revit API operations.
+PaulAI interprets a natural-language request, converts it into a validated structured command, and performs the corresponding Revit API operations.
 
 ---
 
@@ -47,8 +45,7 @@ structured command, and performs the corresponding Revit API operations.
 
 ![Sheet automation](assets/sheet-automation.png)
 
-The tool can create individual sheets for named views and place the
-corresponding view on each sheet.
+The tool can create individual sheets for named views and place the corresponding view on each sheet.
 
 ---
 
@@ -84,15 +81,14 @@ Natural Language
 
 ## Technology
 
-`C#` `Revit API` `.NET Framework 4.8` `WPF` `MVVM`
+`C#` `Revit API` `.NET Framework 4.8` `WPF` `MVVM`  
 `Ollama` `Qwen2.5 7B` `JSON`
 
 ---
 
 ## Technical Overview
 
-For architecture details, command flow, implementation boundaries and
-current limitations:
+For architecture details, command flow, implementation boundaries, and current limitations:
 
 [Read the Technical Overview](docs/TECHNICAL_OVERVIEW.md)
 
@@ -102,6 +98,6 @@ current limitations:
 
 PaulAI is maintained as a private development project.
 
-This repository is provided as a technical portfolio and demonstration of
-the application's architecture and automation capabilities. The
-implementation source code is not distributed through this repository.
+This repository is provided as a technical portfolio and demonstration of the application's architecture and automation capabilities.
+
+The implementation source code is not distributed through this repository.
